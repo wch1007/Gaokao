@@ -3,6 +3,7 @@
 # 设置运行环境
 echo "设置运行环境..."
 pip install --upgrade yt-dlp
+pip install requests
 mkdir -p videos subtitles text_data
 
 # 定义目标UP主
